@@ -853,7 +853,7 @@ form{
                 left: -20%;
                 height:600px;
                 width: 300px;
-                background-color: var(--main-font-color);
+                background-color: #FFDBC1;
                 border-radius: 5%;
                 display: flex;
                 align-items: center;
@@ -877,7 +877,7 @@ form{
             .skills{
                 height: 300vh;
                 padding: 30px 0;
-                background-color: var(--main-font-color);
+                background-color: #FFDBC1;
             }
             
              .section-border{
@@ -1037,5 +1037,13 @@ form{
         .youtube h1{
             font-size: 1.2rem !important;
         }
+
+
+       #footer {
+    background: #fdf7e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+}
 }
 
