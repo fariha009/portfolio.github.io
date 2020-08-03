@@ -1016,6 +1016,7 @@ form{
         }
         .contact{
             margin-top: 1200px;
+            padding:0;
         }
         .form{
             width: 100vw;
@@ -1047,7 +1048,7 @@ form{
 
 
        #footer {
-    background: #fdf7e6;
+    background: var(--navbar-bg);
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 200px;
