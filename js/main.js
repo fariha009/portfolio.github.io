@@ -21,3 +21,8 @@ AOS.init({
 $(window).load(function() {
     $("body").removeClass("preload");
   });
+
+function topFunction(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

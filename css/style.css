@@ -608,11 +608,35 @@ form{
 
 /* -----------------------footer------------------------------ */
 
+.up{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: var(--main-font-color);
+    top: -1rem;
+    right: 4rem;
+    z-index:990;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+    border-radius: 5px;
+	
+  }
+  
+  .up i{
+    font-size: 30px;
+    color: #fdfcfc;
+    margin: auto;
+    z-index:999;
+  }
+
+ 
 #footer {
     background: #fdf7e6;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 70px;
+    position: relative;
   }
   
   #footer .socials-media {
