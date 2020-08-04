@@ -898,6 +898,7 @@ form{
                 height: 320vh;
                 padding: 30px 0;
                 background-color: #FFDBC1;
+                margin: 70px 20px;
             }
             
              .section-border{
@@ -992,6 +993,7 @@ form{
             width: 350px !important;
             height: 380px !important;
             color:#fff !important;
+            margin-left: 0;
         }
 
         
@@ -999,6 +1001,7 @@ form{
             border: 15px solid #FFDBC1;
             margin-top: 100px;
             width: 350px !important;
+            margin-left: 0;
         }
 
         .youtube{
@@ -1016,7 +1019,7 @@ form{
         }
         .btn-subscribe{
             position: absolute;
-            left: 30%;
+            left: 27%;
             transform: rotateX(-30%);
             margin-top: 60px;
             border-radius: 50px;
@@ -1035,6 +1038,7 @@ form{
         .contact{
             margin-top: 1200px;
             padding:0;
+             height: 140vh;
         }
         .form{
             width: 100vw;
@@ -1056,6 +1060,7 @@ form{
         .address {
             height: 200px;
             margin-top: 150px;
+            margin-left: 0;
             font-size: 20px;
             padding-left:35px !important ;
         }
@@ -1071,5 +1076,8 @@ form{
     padding-bottom: 50px;
     margin-top: 200px;
 }
+.up{
+            right: 4rem;
+        }
 }
 
