@@ -935,7 +935,7 @@ form{
          /*=================== ===============projects===================================== */
             
          .projects{
-            height: 380vh;
+            height: 390vh;
             
             position: relative;
             margin: 20px 50px 20px 50px;
@@ -985,7 +985,7 @@ form{
 
         .youtube{
             margin-top: 300px;
-            height: 140vh;
+            height: 160vh;
             background-color: #FFDBC1;
             padding: 50px 80px 10px 80px;
             margin: 100px 10px 50px 10px;
@@ -1055,3 +1055,7 @@ form{
 }
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {overflow-x:hidden;}
