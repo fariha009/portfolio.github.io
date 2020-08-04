@@ -72,7 +72,7 @@ nav{
 .logo{
    
     position: absolute;
-    left: 5%;
+    left: 6%;
 }
 
 .nav-list{
@@ -109,6 +109,7 @@ main{
     height: 100vh;
     margin-top: 50px ;
     margin-left: 100px;
+margin-right:60px;
 }
 
 #particles-js{
@@ -333,8 +334,8 @@ main{
     .square{
         position: absolute;
         top: 50%;
-        left: 25%;
-        transform: translate(-25%,-50%);
+        left: 6%;
+        transform: translate(-6%,-50%);
     }
 
     .square p, h3{
@@ -405,29 +406,36 @@ main{
         padding: 20px;
         
     }
-    .fa-php{
+   .fa-php{
+        font-size: 50px;
         color: #474A8A;
-        padding: 18px;
+        padding: 30px 18px;
         
     }
     .fa-bootstrap{
         color:#553C7B;
-        padding: 10px 23px;
+        padding: 20px 18px;
     }
     .fa-sass{
         color: #CD6799;
+        padding: 30px 20px;
+        font-size: 50px;
     }
     
     .fa-github{
         background-color: #fdfcfc;
-        padding: 20px;
+        padding: 20px 18px;
     }
 
     .fa-database{
         color: #F29111;
-        padding: 20px;
+        padding: 20px 17px;
     }
-  
+    .fa-terminal{
+        font-size: 50px;
+        padding: 30px 17px;
+    }
+
 
 /* -------------------------------------------projects----------------------------------- */
 
