@@ -43,7 +43,8 @@ a:hover{
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -56,7 +57,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding: 40px 100px;
     background-color: var(--navbar-bg);
     
     
@@ -72,7 +73,8 @@ nav{
 .logo{
    
     position: absolute;
-    left: 6%;
+    left: 10%;
+    transform: translateX(-10%);
 }
 
 .nav-list{
@@ -109,7 +111,7 @@ main{
     height: 100vh;
     margin-top: 50px ;
     margin-left: 100px;
-margin-right:60px;
+margin-right:40px;
 }
 
 #particles-js{
@@ -243,45 +245,9 @@ margin-right:60px;
     
     
     
-    .time{
-        position: absolute;
-        left: 30%;
-        top: -25%;
-        font-size: 30px;
-        font-weight: normal;
-    }
     
-    .gp{
-        font-size: 8px;
-        position: absolute;
-        top:-60px;
-        left: -30px;
-    }
         
-    .fa-wifi{
-        margin-left: 5px;
-    }
-    .fa-battery-three-quarters{
-        position: absolute;
-        top: -60px;
-        right:-55px;
-        font-weight: lighter;
-        
-    }
-    .percentage{
-        font-size: 10px;
     
-    }
-    .percentage span{
-        margin-left: 2px;
-    
-    }
-    .date{
-        
-        transform: translate(15%,5%);
-        margin-top: 25px;
-        
-    }
     
     .end{
         align-items: center;
@@ -347,7 +313,7 @@ margin-right:60px;
     .square a{
         padding: 5px 5px;
         border: 2px solid var(--main-font-color);
-        border-radius: 10px;
+        border-radius: 50px;
     }
 
       /* -------------------------------skills starts------------------------------------------ */
@@ -356,7 +322,7 @@ margin-right:60px;
         height: 120vh;
         background-color: #FFDBC1;
         position: relative;
-        margin: 80px 50px 20px 50px;
+        margin: 80px 130px 20px 130px;
         padding: 70px 0;
        
     }
@@ -372,15 +338,15 @@ margin-right:60px;
     .section-main{
         position: absolute;
         top: 92%;
-        left: 55%;
-        transform: translate(-55%,-100%);
+        left: 50%;
+        transform: translate(-50%,-100%);
     }
 
     .icon{
         margin:40px 70px;
         background-color: #fdfcfc;
         filter: drop-shadow(0 1px 1px var(--main-font-color));
-        
+        transition: transform 1s ease;
     }
     .icon:hover{
      transform:scale(1.1);
@@ -391,7 +357,7 @@ margin-right:60px;
         padding: 10px;
         background-color: #fdfcfc;
         cursor: pointer;
-        transition: transform 1s ease;
+        
     }
     .fa-html5{
         color: #f06529;
@@ -496,24 +462,30 @@ margin-right:60px;
 }
 
 .text-box{
-    height: 300px;
+  height: 300px;
     background-color: #FFDBC1;
     border-radius: 10px;
     margin-top: 280px;
+    margin-left: 70px;
+}
+.text-box p{
+    color: #be4a4a !important;
+    
 }
 .img-box{
     border: 15px solid #FFDBC1;
     margin-top: 200px;
     width: 250px;
     margin-bottom: 70px;
+    margin-left: 30px;
 }
 
 .youtube{
     margin-top: 300px;
-    height: 560px;
+    height: 600px;
     background-color: #FFDBC1;
     padding: 100px;
-    margin: 100px 50px 50px 50px;
+    margin: 100px 120px;
 }
 
 .youtube-main{
@@ -555,12 +527,12 @@ margin-right:60px;
     background-color: #FFDBC1;
     clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
     margin-top: 150px;
-    width: 700px;
+    width: 640px;
 }
 form{
     width: 50%;
     margin:0 auto;
-    padding:100px 0px 70px 120px;
+    padding:90px 0px 70px 100px;
   
   }
 
@@ -611,7 +583,7 @@ form{
        height: 300px;
        margin-top: 300px;
        font-size: 20px;
-       
+       margin-left: 100px;
    }
 
 /* -----------------------footer------------------------------ */
@@ -622,7 +594,7 @@ form{
     width: 50px;
     background-color: var(--main-font-color);
     top: -1rem;
-    right: 4rem;
+    right: 7rem;
     z-index:990;
     display: flex;
     animation: pulse 2s infinite;
