@@ -17,3 +17,7 @@ AOS.init({
     easing:'ease',
     duration:1500
 });
+
+$(window).load(function() {
+    $("body").removeClass("preload");
+  });

@@ -766,9 +766,19 @@ form{
     }
 }   
     @media screen and (max-width:768px){
-        /* body{
-            overflow-x: hidden;
-        } */
+        body{
+    height: 100%;
+    overflow-x: hidden !important;
+    width: 100%;
+    }
+
+
+        .preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
         .nav-items{
             position: absolute;
             right: 0;
@@ -781,7 +791,7 @@ form{
             align-items: center;
             transform: translateX(200%);
             z-index: 999999;
-            transition: transform 3s ease;
+            transition: transform 1.5s ease;
         }
         .hamburger div{
             display: block;
