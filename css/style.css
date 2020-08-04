@@ -874,7 +874,10 @@ form{
                 transform: translate(-20%,-50%);
             }
         
-            
+            .square a:hover{
+    color: var(--navbar-bg);
+    background-color: var(--main-font-color);
+}
 
             .skills{
                 height: 320vh;
@@ -985,7 +988,7 @@ form{
 
         .youtube{
             margin-top: 300px;
-            height: 160vh;
+            height: 150vh;
             background-color: #FFDBC1;
             padding: 50px 80px 10px 80px;
             margin: 100px 10px 50px 10px;
@@ -1055,7 +1058,3 @@ form{
 }
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) {overflow-x:hidden;}
