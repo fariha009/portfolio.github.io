@@ -32,9 +32,9 @@ p{
 
 .section-heading{
     position: absolute;
-    
-    left: 53%;
-    transform: translateX(-53%);
+    margin-bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -311,7 +311,7 @@ margin-right:40px;
     }
 
     .square a{
-        padding: 5px 5px;
+        padding: 5px 10px;
         border: 2px solid var(--main-font-color);
         border-radius: 50px;
     }
@@ -482,14 +482,14 @@ margin-right:40px;
 
 .youtube{
     margin-top: 300px;
-    height: 600px;
+    height: 100vh;
     background-color: #FFDBC1;
     padding: 100px;
     margin: 100px 120px;
 }
 
 .youtube-main{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .btn-subscribe{
     position: absolute;
@@ -532,7 +532,7 @@ margin-right:40px;
 form{
     width: 50%;
     margin:0 auto;
-    padding:90px 0px 70px 100px;
+    padding:90px 0px 70px 70px;
   
   }
 
@@ -888,7 +888,11 @@ form{
                 left: 0%;
                 transform: translate(-10%,-50%);
             }
-        
+            .square p, h3{
+        font-size: 35px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
             .square a:hover{
     color: var(--navbar-bg);
     background-color: var(--main-font-color);
