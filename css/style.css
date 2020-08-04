@@ -881,8 +881,8 @@ form{
             .square{
                 position: absolute;
                 top: 50%;
-                left: 20%;
-                transform: translate(-20%,-50%);
+                left: 0%;
+                transform: translate(-10%,-50%);
             }
         
             .square a:hover{
