@@ -312,7 +312,7 @@ margin-right:40px;
     }
 
     .square a{
-        padding: 5px 10px;
+        padding: 5px 15px;
         border: 2px solid var(--main-font-color);
         border-radius: 50px;
     }
@@ -986,6 +986,9 @@ form{
         .about .section-heading h1{
             font-size: 2rem;
         }
+        .about .section-heading {
+            margin-top:0 !important;
+        }
         .about-border{
     
             
@@ -1041,7 +1044,7 @@ form{
             width: 170px;
         }
         .contact{
-            margin-top: 1200px;
+          
             padding:0;
              height: 140vh;
         }
