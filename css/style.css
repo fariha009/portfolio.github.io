@@ -69,6 +69,7 @@ nav{
     width: 30%;
     position: absolute;
     right: 10%;
+    padding-top: 15px;
 }
 .logo{
    
@@ -323,7 +324,7 @@ margin-right:40px;
         background-color: #FFDBC1;
         position: relative;
         margin: 80px 130px 20px 130px;
-        padding: 70px 0;
+        padding: 40px 0;
        
     }
 
@@ -448,7 +449,7 @@ margin-right:40px;
 /* -----------------------------------About----------------------------------------- */
 
 .about{
-    height: 220vh;
+    height: 120vh;
     position: relative;
     
 }
@@ -612,7 +613,7 @@ form{
 
  
 #footer {
-    background: #fdf7e6;
+    background: #f7f7f7;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 70px;
